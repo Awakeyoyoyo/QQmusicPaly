@@ -1,0 +1,108 @@
+[
+    {
+        "name":"I (Live)",
+        "singer":"태연(泰妍)",
+        "album":"I - The 1st Mini Album",
+        "time":"03:26",
+        "link_url":"./source/music/태연 (泰妍) - I (Live).mp3",
+        "cover":"./source/img/3.jpg",
+        "link_lrc":"./source/jrc/태연 (泰妍) - I (Live).txt"
+    },
+    {
+        "name":"假如让我说下去(Live)",
+        "singer":"杨千嬅",
+        "album":"万紫千红演唱会2002",
+        "time":"04:58",
+        "link_url":"./source/music/杨千嬅 - 假如让我说下去(live).mp3",
+        "cover":"./source/img/1.jpg",
+        "link_lrc":"./source/jrc/杨千嬅 - 假如让我说下去 (Live).txt"
+    },
+    {
+        "name":"IDOL",
+        "singer":"BTS(防弹少年团)",
+        "album":"LOVE YOURSELF 結 'Answer'",
+        "time":"03:42",
+        "link_url":"./source/music/idol.mp3",
+        "cover":"./source/img/7.jpg",
+        "link_lrc":"./source/jrc/IDOL - BTS (防弹少年团).txt"
+    },
+    {
+        "name":"FAKE LOVE",
+        "singer":"BTS(防弹少年团)",
+        "album":"LOVE YOURSELF 結 'Answer'",
+        "time":"04:02",
+        "link_url":"./source/music/fake love.mp3",
+        "cover":"./source/img/7.jpg",
+        "link_lrc":"./source/jrc/FAKE LOVE - BTS (防弹少年团).txt"
+    },
+    {
+        "name":"敢爱敢做",
+        "singer":"林子祥",
+        "album":"Show Off",
+        "time":"04:59",
+        "link_url":"./source/music/敢爱敢做_林子祥.mp3",
+        "cover":"./source/img/8.jpg",
+        "link_lrc":"./source/jrc/林子祥 - 敢爱敢做.txt"
+    },
+    {
+        "name":"Ice Cream",
+        "singer":"DnR",
+        "album":"家好月圆 电视剧原声带",
+        "time":"02:52",
+        "link_url":"./source/music/DnR - Ice Cream.mp3",
+        "cover":"./source/img/5.jpg",
+        "link_lrc":"./source/jrc/DnR - Ice Cream.txt"
+    },
+    {
+        "name":"Zero",
+        "singer":"Imagine Dragons",
+        "album":"Zero (From the Original Motion Picture Ralph Bre",
+        "time":"03:30",
+        "link_url":"./source/music/Imagine Dragons - Zero.mp3",
+        "cover":"./source/img/6.jpg",
+        "link_lrc":"./source/jrc/Imagine Dragons - Zero.txt"
+    },
+    
+    {
+        
+        "name":"小城大事",
+        "singer":"张学友",
+        "album":"学友光年世界巡回演唱会’07-香港站",
+        "time":"03:50",
+        "link_url":"./source/music/张学友 - 小城大事.mp3",
+        "cover":"./source/img/4.jpg",
+        "link_lrc":"./source/jrc/张学友 - 小城大事 (Live).txt"
+    },
+    {
+        
+        "name":"红日",
+        "singer":"李克勤",
+        "album":"红日",
+        "time":"04:46",
+        "link_url":"./source/music/李克勤 - 红日.mp3",
+        "cover":"./source/img/2.jpg",
+        "link_lrc":"./source/jrc/李克勤 - 红日 (粤语).txt"
+    },
+    {
+        
+        "name":"My Love Will Get You Home",
+        "singer":"Christine Glass",
+        "album":"家好月圆 电视剧原声带",
+        "time":"02:18",
+        "link_url":"./source/music/Christine Glass - My Love Will Get You Home.mp3",
+        "cover":"./source/img/5.jpg",
+        "link_lrc":"./source/jrc/Christine Glass - My Love Will Get You Home.txt"
+    },
+    {
+        
+        "name":"再见二丁目(Live)",
+        "singer":"杨千嬅",
+        "album":"万紫千红演唱会2002",
+        "time":"03:39",
+        "link_url":"./source/music/杨千嬅 - 再见二丁目live.mp3",
+        "cover":"./source/img/1.jpg",
+        "link_lrc":"./source/jrc/杨千嬅 - 再见二丁目 (Live).txt"
+    }
+    
+ 
+]

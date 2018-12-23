@@ -1,0 +1,425 @@
+*{
+    margin:0;padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 16px
+}
+.header{
+    width: 100%;
+    height: 50px;
+    /* background: red; */
+    user-select: none;
+}
+.header .logo {
+  float: left;
+  margin-top:5px;
+  margin-left: 20px;
+  opacity: 0.5;
+  /* overflow: hidden; */
+}
+
+.header .logo:hover{
+    opacity:1;
+}
+.header .logo a{
+    display: inline-block;
+    width: 170px;
+    height: 35px;
+    color: white;
+}
+.header .logo a h5{
+    float: left;
+    margin-left:8px ;
+    margin-top:2px;
+}
+.header .logo a img{
+    width: 35px;
+    height: 100%;
+    float: left;
+}
+.header .register {
+    line-height: 45px;
+    float:right;
+    overflow: hidden;
+}
+.header .register li{
+    list-style: none;
+    float: left;
+    margin-right:20px; 
+    color: white;
+    opacity: 0.5;
+    font-size: 20px;
+}
+.header .register li:hover{
+    opacity: 1;
+}
+.content{
+    width: 100%;
+    height: 460px;
+    /* background: blue; */
+    user-select: none;
+}
+.content .content_in{
+    width: 1200px;
+    height: 100%;
+    /* background: deeppink; */
+    margin: 0 auto;
+}
+.content .content_in .content_left{
+    width: 800px;
+    float: left;
+    height: 100%;
+    /* background: pink; */
+}
+.content_left_top{
+    width: 100%;
+    height: 50px; 
+    /* background: #000; */
+}
+.content_left_top ul li{
+    display: inline-block;
+    width: 120px;
+    height: 100%;
+    list-style: none;
+    line-height: 47.5px;
+    text-align: center;
+    color: white;
+    border:1px white solid;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-left:10px;
+    opacity: 0.5;
+}
+.content_left_top ul li:hover{
+    opacity: 1;
+}
+.content_left_top ul li img{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: -2.5px
+}
+.content_left_top ul li span{
+    display: inline-block;
+    margin-left: 10px;
+}
+.content_left_bottomlist{
+   width: 100%;
+   height: 410px; 
+   /* background: greenyellow; */
+   overflow: auto;
+}
+.content_left_bottomlist li{
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    /* background: orange; */
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    user-select: none;
+    /* opacity: 0.5; */
+}
+.content_left_bottomlist li div{
+    float: left;
+    color:rgba(255, 255, 255,0.5);
+    /* opacity: 0.5; */
+    line-height: 50px;
+}
+.content_left_bottomlist .list_check{
+    width: 50px;
+    height: 100%;
+    /* background: black; */
+
+    text-align: center
+}
+.content_left_bottomlist .list_check i{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    opacity: 0.5;
+    border: 1px solid #fff;
+}
+.content_left_bottomlist .list_checked i{
+    background: url("../img/gou.png") no-repeat;
+    opacity: 1;
+}
+
+.content_left_bottomlist .list_number{
+    width: 20px;
+    height: 100%;
+    /* background: navy */
+}
+.content_left_bottomlist .list_number2{
+    color: transparent !important;
+    background: url("../img/wave.gif") no-repeat 0 center;
+}
+.content_left_bottomlist .list_name{
+    width: 50%;
+    height: 100%;
+    /* background:black; */
+}
+.list_name .list_menu{
+    float: right;
+    margin-top: 7px;
+    margin-right: 10px;
+    display: none;
+}
+.list_name .list_menu a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    opacity: 0.5;
+}
+.list_name .list_menu a:hover{
+    opacity: 1;
+}
+.list_name .list_menu a img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.content_left_bottomlist .list_singer{
+    width: 20%;
+    height: 100%;
+    /* background: pink */
+}
+.content_left_bottomlist .list_time{
+    /* opacity: 0.5; */
+}
+.content_left_bottomlist .list_time a{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    float: left;
+    margin-top:5px;
+    margin-right:3px;
+    display: none;
+}
+.content_left_bottomlist .list_time a img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; 
+}
+.content_left_bottomlist .list_time a img:hover{
+    opacity: 1; 
+}
+.content .content_in .content_right{
+    width: 400px;
+    float: right;
+    height: 100%;
+    /* background: #cccc; */
+    user-select: none;
+}
+.content_right .song_info{
+    text-align: center;
+    color:white
+}
+.song_info .song_info_pic{
+    display: inline-block;
+    background: url("../img/album_cover_player.png") no-repeat 0 0;
+    width: 201px;
+    height: 180px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.song_info_pic img{
+    width: 180px;
+    height: 180px;
+}
+.song_info div a{
+    text-decoration:none;
+    color:#fff;
+    opacity: 0.5;
+}
+.song_info div a:hover{
+    opacity: 1;
+}
+.song_lyric_contain{
+    margin-top:30px; 
+    height: 200px;
+    overflow: hidden;
+    /* background: red; */
+}
+.content_right .song_lyric{
+    /* background: green; */
+    text-align: center;
+}
+.content_right .song_lyric_li{
+    list-style: none;
+    line-height: 30px;
+    color: gainsboro;
+    font-weight: bold;
+    /* width: 400px; */
+    /* overflow: hidden; */
+    /* white-space: nowrap */
+}
+.content_right .song_lyric .cur{
+    color: #31c27c;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    /* background:green;  */
+    position: absolute;
+    left: 0;
+    margin-top: 60px;
+}
+.footer .footer_in{
+    width: 1200px;
+    height: 100%;
+    /* background: gold; */
+    margin: 0 auto;
+    user-select: none;
+}
+.footer .footer_in a{
+ display:inline-block;
+ text-decoration: none;
+ color: #fff;
+ width: 28px;
+ height: 28px;
+ margin-top:15px; 
+ margin-right:20px;
+}
+
+.footer_in .music_prc{
+
+}
+.footer_in .music_play{
+
+}
+.footer_in .music_next{
+
+}
+.footer_in .music_progress_info{
+    width: 0;
+    height: 40px;
+    display: inline-block;
+    /* background: red; */
+    width:642px; 
+}
+.music_progress_info .music_progress_top{
+    width: 100%;
+    height: 30px;
+    /* background: black; */
+    color: white;
+    line-height: 30px;
+}
+.music_progress_top .music_progress_name{
+    float: left;
+    opacity: 0.5;
+}
+.music_progress_name:hover{
+    opacity: 1;
+}
+.music_progress_top .music_progress_time{
+    float: right;
+    opacity: 0.5;
+}
+.music_progress_info .music_progress_bar{
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.5);
+    margin-top:5px;
+    position: relative;
+}
+.music_progress_bar .music_progress_line{
+   width: 0;
+    height: 100%;
+    background: white;
+}
+.music_progress_info  .music_progress_dot{
+    width: 14px;
+    height: 14px;
+    border-radius: 50px;
+    background: white;
+    position: absolute;
+    top:-5px;
+}
+.footer_in .music_mode{
+    margin-left:10px; 
+}
+.footer_in .music_fav{
+
+}
+.footer_in .music_down{
+
+}
+.footer_in .music_comment{
+
+}
+.music_only{
+    width: 40px;
+    height: 28px;
+}
+.footer .footer_in a img{
+    width: 100%;
+    height: 100%;
+}
+.footer_in .music_voice_info{
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    /* background: green; */
+    position: relative;
+}
+.footer_in .music_voice_info .music_voice_icon{
+    display:inline-block;
+    text-decoration: none;
+    /* background: teal; */
+    /* margin-top:15px;  */
+    width: 25px;
+    height: 25px;
+}
+.music_voice_icon img{
+    width: 100%;
+    height: 100%;
+}
+.footer_in  .music_voice_bar{
+    display: inline-block;
+    width: 90px;
+    height: 3.5px;
+    background: rgba(255, 255, 255, 0.5);
+    margin-top:5px;
+    position: absolute;
+    right: 5px;
+    top:20px
+}
+.music_voice_info .music_voice_line{
+    width: 90px;
+    height: 100%;
+    background: white;
+}
+.music_voice_info .music_voice_dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background: white;
+    position: relative;
+    top:-3px;
+    left: 90px;
+}
+.mask_bg{
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index:-2;
+    width: 100%;
+    height: 100%;
+    background:url("../img/dr.jpg") no-repeat;
+    
+    filter: blur(100px);
+    background-position:0% 0%;
+    background-size: 100% 100%;
+}
+.mask{
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index:-1;
+    width: 100%;
+    height: 100%;
+    background:rgba(0,0,0,0.35)
+}
